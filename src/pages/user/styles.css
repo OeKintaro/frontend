@@ -1,0 +1,30 @@
+#userContainer h1{
+    margin-top: 10px;
+    color: #da552f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userList{
+    max-width: 350px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    list-style: none;
+}
+
+
+.userList li{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.userList li p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
