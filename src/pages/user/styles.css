@@ -6,8 +6,15 @@
     align-items: center;
 }
 
+#userContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .userList{
-    max-width: 350px;
+    width: 350px;
     margin: 20px auto 0;
     padding: 0 20px;
     list-style: none;
@@ -27,4 +34,11 @@
     color: #999;
     margin-top: 5px;
     line-height: 24px;
+}
+
+.actions1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }

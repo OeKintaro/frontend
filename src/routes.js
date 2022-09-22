@@ -10,7 +10,6 @@ export default function Routes1(){
                 <Route path="/" element={<User />}/>
                 <Route path="/create" element={<Profile />}/>
                 <Route path="/update/:id" element={<Profile />}/>
-
             </Routes>
         </Router>
     );
